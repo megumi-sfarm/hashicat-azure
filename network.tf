@@ -1,5 +1,5 @@
 module "network" {
-  source  = "app.terraform.io/YOURNAME-training/network/azurerm"
+  source  = "app.terraform.io/megumi-training/network/azurerm"
   version = "3.5.0"
   # insert required variables here
   resource_group_name = "${var.prefix}-workshop"
